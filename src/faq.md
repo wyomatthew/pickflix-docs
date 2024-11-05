@@ -21,6 +21,61 @@ data sent to your client, it would recogize the payload doesn't constitute a
 valid piece of media and fail. For furthe reassurance, even before the data
 reaches your client, it is processed for integrity by server.
 
+## Can you see what I request? What I watch?
+
+Yes and yes. Especially for requests, everything has to tie back to a user
+account to be able to trace activity in the event of abuse. However, you have my
+word that I don't judge your watch history or share it out (which is a whole lot
+better than paid streaming services which sell your data!)
+
+## How long does it take to fulfill requests?
+
+It depends on how obscure the request is. Very popular requests are usually
+fulfilled within 30 minutes. Revisiting the piece of media you requested on
+[Jellyseerr](https://requests.pickflix.mov) will give you the latest status.
+
+## Can I request *anything*?
+
+Yeah, just about! If you can find it on
+[Jellyseerr](https://requests.pickflix.mov), then you can request it.
+
+By default, all requests are auto-approved, but that doesn't mean all requests
+will be fulfilled. See [Are any media off limits?](#are-any-media-off-limits)
+and [Will it be able to fulfill X?](#will-it-be-able-to-fulfill-x) for more
+info.
+
+## Are any media off limits?
+
+By design, Pickflix is intended as a *very* open platform. That said, two hard
+boundaries are content that is 1) pornographic or 2) overtly offensive. These
+requests will be manually removed and can result in your requests no longer
+being auto-approved or your account being revoked.
+
+## Will it be able to fulfill X?
+
+I dunno, try requesting it!
+
+The vast majority of requests can be fulfilled. At time of writing, Pickflix has
+managed to fulfill 143/149 requested movies and 3321/3596 requested episodes.
+Those media that can't get grabbed tend to be some combination of old, obscure,
+and non-English.
+
+If you've made a request >24 hours ago and are unsure whether or not it's
+progressing or stalled, then revisit the piece of media in
+[Jellyseerr](https://requests.pickflix.mov). If the "Status" shows "Requested",
+then that's a good sign that the media couldn't be found.
+
+## Something is wrong! How can I get it fixed?
+
+Oh no! Fear not, we're here to help! Navigate to
+[Jellyseerr](https://requests.pickflix.mov) and search for the media you're
+having trouble with. At the top write, you should see a yellow caution button.
+Please click it and describe your problem in as much detail as possible,
+including timestamps in the case of audio/subtitle issues.
+
+Your issue will send a push notification to me and will be resolved as fast as
+possible 😎
+
 ## I know someone who would love Pickflix! Can I share my credentials with them?
 
 Depends. Using the same credentials within the same household (say, with your
