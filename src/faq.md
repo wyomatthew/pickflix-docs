@@ -40,12 +40,12 @@ for more info.
 
 ## How can I invite someone to Pickflix?
 
-This is a feature I'm actively working on automating! However, for the time
-being there is no way to automatically extend an invite for someone else to
-create an account to join Pickflix. Until implemented, simply reach out to me
-and I will be able to generate a link for them to sign up!
+This is a feature I'm actively working on! However, for the time being there is
+no way for users to extend an invite for someone else to join Pickflix. Until
+implemented, simply reach out to me and I will be able to generate a link for
+them to sign up!
 
-## My client wants a server address. What do I enter?
+## My Jellyfin client wants a server address. What do I enter?
 
 <https://streaming.pickflix.mov>
 
