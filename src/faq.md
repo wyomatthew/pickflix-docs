@@ -1,5 +1,50 @@
 # FAQ
 
+## How does Pickflix work?
+
+That's a big question! At a high level, requests are made against a big database
+of media (think something like [IMDB](https://www.imdb.com/)). This database
+contains information *about* the media but not the actual movies or shows
+themselves. Once a user has requested something, a separate application will
+search through a list of trusted sources for a network that hosts the request.
+Once a network is found, it will piece together the actual content from several
+peers in the network. The assembled result is then stored and made available for
+streaming.
+
+For more detailed information, see the [Technical Guide](technical-guide.md).
+
+## Is Pickflix safe to use?
+
+Yes! Your client is simply a media player: it retrieves data from the server and
+plays it on your display. Even if someone malicious were able to manipulate the
+data sent to your client, it would recogize the payload doesn't constitute a
+valid piece of media and fail. For furthe reassurance, even before the data
+reaches your client, it is processed for integrity by server.
+
+## I know someone who would love Pickflix! Can I share my credentials with them?
+
+Depends. Using the same credentials within the same household (say, with your
+partner and family) is totally fine!
+
+If considering sharing credentials with several folks outside your home, I
+kindly ask you *do not*. It's important for keeping the service stable that we
+have a good approximation of the real number of human users, which is unbalanced
+if many humans use a single account. Also, being able to moderate against abuse
+requires I know the chain of people through which somebody is accessing the
+platform, which is impossible with credential sharing.
+
+But, if you know someone excited by Pickflix, then Pickflix would be excited to
+have them as a user! Refer to
+[How can I invite someone to Pickflix](#how-can-i-invite-someone-to-pickflix)
+for more info.
+
+## How can I invite someone to Pickflix?
+
+This is a feature I'm actively working on automating! However, for the time
+being there is no way to automatically extend an invite for someone else to
+create an account to join Pickflix. Until implemented, simply reach out to me
+and I will be able to generate a link for them to sign up!
+
 ## My client wants a server address. What do I enter?
 
 <https://streaming.pickflix.mov>
