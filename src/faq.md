@@ -1,6 +1,6 @@
 # FAQ
 
-## How does Pickflix work?
+## How does Pickflix work? 🤔
 
 That's a big question! At a high level, requests are made against a big database
 of media (think something like [IMDB](https://www.imdb.com/)). This database
@@ -13,7 +13,7 @@ streaming.
 
 For more detailed information, see the [Technical Guide](technical-guide.md).
 
-## Is Pickflix safe to use?
+## Is Pickflix safe to use? 😨
 
 Yes! Your client is simply a media player: it retrieves data from the server and
 plays it on your display. Even if someone malicious were able to manipulate the
@@ -21,20 +21,30 @@ data sent to your client, it would recogize the payload doesn't constitute a
 valid piece of media and fail. For furthe reassurance, even before the data
 reaches your client, it is processed for integrity by server.
 
-## Can you see what I request? What I watch?
+## Can you see what I request? What I watch? 👀
 
 Yes and yes. Especially for requests, everything has to tie back to a user
 account to be able to trace activity in the event of abuse. However, you have my
 word that I don't judge your watch history or share it out (which is a whole lot
 better than paid streaming services which sell your data!)
 
-## How long does it take to fulfill requests?
+## How long does it take to fulfill requests? ⌚
 
 It depends on how obscure the request is. Very popular requests are usually
 fulfilled within 30 minutes. Revisiting the piece of media you requested on
 [Jellyseerr](https://requests.pickflix.mov) will give you the latest status.
 
-## Can I request *anything*?
+## Is there a limit on how many requests I can make? 📊
+
+Yes. By default, users can request 20 movies *and* 20 TV seasons per week. These
+are designed to be *very* generous, and are only really there to prevent abuse
+in case someone unauthorized gains access and decides to request the entire
+internet.
+
+If for some reason you have a reasonable need to exceed these limits, let me
+know and they can be increased :)
+
+## Can I request *anything*? 🍿
 
 Yeah, just about! If you can find it on
 [Jellyseerr](https://requests.pickflix.mov), then you can request it.
@@ -44,14 +54,18 @@ will be fulfilled. See [Are any media off limits?](#are-any-media-off-limits)
 and [Will it be able to fulfill X?](#will-it-be-able-to-fulfill-x) for more
 info.
 
-## Are any media off limits?
+## Are any media off limits? 😈
 
 By design, Pickflix is intended as a *very* open platform. That said, two hard
 boundaries are content that is 1) pornographic or 2) overtly offensive. These
 requests will be manually removed and can result in your requests no longer
 being auto-approved or your account being revoked.
 
-## Will it be able to fulfill X?
+Number of requests that have been manually denied:
+
+**<center><span style="font-size:18.0pt">2</span></center>**
+
+## Will it be able to fulfill X? 🧐
 
 I dunno, try requesting it!
 
@@ -65,7 +79,7 @@ progressing or stalled, then revisit the piece of media in
 [Jellyseerr](https://requests.pickflix.mov). If the "Status" shows "Requested",
 then that's a good sign that the media couldn't be found.
 
-## Something is wrong! How can I get it fixed?
+## Something is wrong! How can I get it fixed? 😱
 
 Oh no! Fear not, we're here to help! Navigate to
 [Jellyseerr](https://requests.pickflix.mov) and search for the media you're
@@ -76,7 +90,7 @@ including timestamps in the case of audio/subtitle issues.
 Your issue will send a push notification to me and will be resolved as fast as
 possible 😎
 
-## I know someone who would love Pickflix! Can I share my credentials with them?
+## I know someone who would love Pickflix! Can I share my credentials with them? 💑
 
 Depends. Using the same credentials within the same household (say, with your
 partner and family) is totally fine!
@@ -93,18 +107,18 @@ have them as a user! Refer to
 [How can I invite someone to Pickflix](#how-can-i-invite-someone-to-pickflix)
 for more info.
 
-## How can I invite someone to Pickflix?
+## How can I invite someone to Pickflix? 💌
 
 This is a feature I'm actively working on! However, for the time being there is
 no way for users to extend an invite for someone else to join Pickflix. Until
 implemented, simply reach out to me and I will be able to generate a link for
 them to sign up!
 
-## My Jellyfin client wants a server address. What do I enter?
+## My Jellyfin client wants a server address. What do I enter? 🔗
 
 <https://streaming.pickflix.mov>
 
-## How do I install Jellyfin on X?
+## How do I install Jellyfin on X? 🤖
 
 Well, it depends on X! In general, any device with access to an app store will
 have a client available for you to watch Jellyfin. If you're wondering if your
