@@ -60,13 +60,16 @@ something like <https://welcome.pickflix.mov/i/ABCDEF>. If so, press on!
 
    While that request is being fulfilled, set up your streaming client. The
    process here will change depending on where you'd like to watch your media,
-   so refer to [How to use Jellyfin?](faq.md#how-to-use-jellyfin) for more
-   information. The easiest way to get started immediatey is to simply stream
-   from the browser by navigating to <https://streaming.pickflix.mov>.
+   so refer to
+   [How do I install Jellyfin on X?](faq.md#how-do-i-install-jellyfin-on-x) for
+   more information. The easiest way to get started immediatey is to simply
+   stream from the browser by navigating to <https://streaming.pickflix.mov>.
 
-   Regardless of your Jellyfin client of choice, you'll authenticate using the
-   same credentials created in step 1. Once authenticated, you should be able to
-   browse the existing collection of fulfilled requests.
+   Depending on your client, you may be prompted for a server address/host/etc.
+   You should enter <https://streaming.pickflix.mov>. Regardless of your
+   Jellyfin client, you'll authenticate using the same credentials created in
+   step 1. Once authenticated, you should be able to browse the existing
+   collection of fulfilled requests.
 
 Just like that, you're done! You know how to request media and where to watch
 it. Good job! 😎
