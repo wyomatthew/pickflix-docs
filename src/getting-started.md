@@ -6,17 +6,17 @@ place!
 ## What is Pickflix? ❓
 
 It's a self-hosted streaming service powered by free, open-source software! The
-core user experience is requesting media via the request portal, waiting for the
-request to be fulfilled, and then streaming the request live via the streaming
-portal. That's all you need to proceed, but feel free to refer to the
-[FAQ](faq.md) for more information.
+core user experience is to request media via the request portal, wait for the
+request to be fulfilled, and then stream the request via the streaming portal.
+That's all you need to proceed, but feel free to refer to the [FAQ](faq.md) for
+more information.
 
 ## Applications
 
 ### [Wizarr](https://welcome.pickflix.mov) 🔮
 
 Wizarr (yes, two r's) handles all user onboarding. Before you can interact with
-any other services, you need valid credentials, and Wizarr is how you'll get
+any other services, you'll need valid credentials, and Wizarr is how you'll get
 them. If you're reading this, you should have already received an invite link
 via Wizarr that looks something like <https://welcome.pickflix.mov/i/ABCDEF>.
 
@@ -25,15 +25,15 @@ cannot start using Pickflix.
 
 ### [Jellyseerr](https://requests.pickflix.mov) 🖥️
 
-Jellyseerr (yes, also two r's) is processes all user requests. You can think of
-Jellyseerr like IMDB, it's a massive store of metadata about all the world's
-media. Just about movie or show to air can be found and requested in Jellyseerr.
+Jellyseerr (yes, also two r's) processes all user requests. You can think of
+Jellyseerr like IMDB: it's a massive metadata store of all the world's media.
+Just about any movie or show to air can be found and requested on Jellyseerr.
 
 ### [Jellyfin](https://streaming.pickflix.mov) 🍿
 
 Jellyfin is the where you'll go to actually stream media that's been requested
-and fulfilled. This is your Netflix--you'll download the app on your phone, tv,
-tablet, or whatever else you'd like and start watching.
+and fulfilled. This is your Netflix: you'll download the app on your phone, tv,
+tablet, or wherever else you'd like and start watching.
 
 ## Onboarding Procedure 📋
 
@@ -42,7 +42,7 @@ something like <https://welcome.pickflix.mov/i/ABCDEF>. If so, press on!
 
 1. Follow your invitation link in the browser
 
-   Paste your link into your favorite browser and follow the instructions given
+   Paste the link into your favorite browser and follow the instructions given
    to you by Wizarr. When you're done, you should have selected a username,
    entered a password, and joined the Discord for announcements.
 
@@ -50,8 +50,8 @@ something like <https://welcome.pickflix.mov/i/ABCDEF>. If so, press on!
 
    In your browser of choice, navigate to <https://requests.pickflix.mov>. When
    prompted, enter the credentials you created in step 1. Once authenticated,
-   search for anything you'd like, and click "Request" and finalize the request
-   on the following pop up.
+   search for anything you'd like, click "Request", and finalize the request on
+   the following pop up.
 
    Note at anytime you can navigate back to the piece of media you originally
    requested and monitor its progress.
@@ -61,7 +61,7 @@ something like <https://welcome.pickflix.mov/i/ABCDEF>. If so, press on!
    While that request is being fulfilled, set up your streaming client. The
    process here will change depending on where you'd like to watch your media,
    so refer to
-   [How do I install Jellyfin on X?](faq.md#how-do-i-install-jellyfin-on-x) for
+   [How do I install Jellyfin on X?](faq.md#how-do-i-install-jellyfin-on-x-) for
    more information. The easiest way to get started immediatey is to simply
    stream from the browser by navigating to <https://streaming.pickflix.mov>.
 

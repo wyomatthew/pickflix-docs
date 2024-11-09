@@ -50,8 +50,8 @@ Yeah, just about! If you can find it on
 [Jellyseerr](https://requests.pickflix.mov), then you can request it.
 
 By default, all requests are auto-approved, but that doesn't mean all requests
-will be fulfilled. See [Are any media off limits?](#are-any-media-off-limits)
-and [Will it be able to fulfill X?](#will-it-be-able-to-fulfill-x) for more
+will be fulfilled. See [Are any media off limits?](#are-any-media-off-limits-)
+and [Will it be able to fulfill X?](#will-it-be-able-to-fulfill-x-) for more
 info.
 
 ## Are any media off limits? 😈
@@ -104,7 +104,7 @@ platform, which is impossible with credential sharing.
 
 But, if you know someone excited by Pickflix, then Pickflix would be excited to
 have them as a user! Refer to
-[How can I invite someone to Pickflix](#how-can-i-invite-someone-to-pickflix)
+[How can I invite someone to Pickflix](#how-can-i-invite-someone-to-pickflix-)
 for more info.
 
 ## How can I invite someone to Pickflix? 💌
