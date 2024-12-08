@@ -18,8 +18,8 @@ For more detailed information, see the [Technical Guide](technical-guide.md).
 Yes! Your client is simply a media player: it retrieves data from the server and
 plays it on your display. Even if someone malicious were able to manipulate the
 data sent to your client, it would recogize the payload doesn't constitute a
-valid piece of media and fail. For furthe reassurance, even before the data
-reaches your client, it is processed for integrity by server.
+valid piece of media and fail. For further reassurance, even before the data
+reaches your client, it is processed for integrity by the server.
 
 ## Can you see what I request? What I watch? 👀
 
