@@ -179,6 +179,15 @@ Below are some particular recommendations from other Pickflix users:
   > subscription of any form is required to use the Jellyfin server or any
   > official client.
 
+  <div class="warning">
+  I've had a couple different reports of instability on a Roku stick when
+  processing some media codecs, ie some media formats seem to lag under
+  some conditions when playing on a Roku stick.
+
+  Most media should play fine, but be aware!
+
+  </div>
+
 - Smart TV (Apple)
 
   Apple TVs do not have an official Jellyfin client. You should first try
