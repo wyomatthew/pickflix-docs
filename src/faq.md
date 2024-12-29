@@ -63,7 +63,7 @@ being auto-approved or your account being revoked.
 
 Number of requests that have been manually denied:
 
-**<center><span style="font-size:18.0pt">2</span></center>**
+**<center><span style="font-size:20.0pt">3</span></center>**
 
 ## Will it be able to fulfill X? 🧐
 
